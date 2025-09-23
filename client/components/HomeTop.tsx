@@ -2,8 +2,8 @@ import HomeBottom from "./HomeBottom"
 
 export default function Home() {
     const links = [
-    { name: 'Personal Projects', href: '#' },
-    { name: 'Team Projects', href: '#' },
+    { name: 'Personal Projects', href: '#personal-anchor' },
+    { name: 'Group Projects', href: '#group-anchor' },
     { name: 'My values', href: '#' },
   ]
 
