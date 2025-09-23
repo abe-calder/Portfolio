@@ -24,7 +24,7 @@ export default function HomeBottom() {
       <div aria-hidden="true"
         className="hidden sm:absolute sm:-middle sm:right-2/3 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu" >
           <Flex direction="column" gap="3">
-	          <Heading id="personal-anchor" style={{ borderBottom: '1px solid white', width: 'fit-content', alignSelf: 'center'}} color="sky" size="9">Personal</Heading>
+	          <Heading id="personal" style={{ borderBottom: '1px solid white', width: 'fit-content', alignSelf: 'center'}} color="sky" size="9">Personal</Heading>
           </Flex>
         <Box className="project-box" maxWidth="15vw" style={{paddingTop: '3vh'}}>
 	        <Card  size="4">
@@ -55,7 +55,7 @@ export default function HomeBottom() {
       <div aria-hidden="true"
         className="hidden sm:absolute sm:-middle sm:left-2/3 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu">
           <Flex direction="column" gap="3">
-	          <Heading id="group-anchor" style={{borderBottom: '1px solid white', width: 'fit-content', alignSelf: 'center'}} color="sky" size="9">Group</Heading>
+	          <Heading id="group" style={{borderBottom: '1px solid white', width: 'fit-content', alignSelf: 'center'}} color="sky" size="9">Group</Heading>
           </Flex>
         <Box maxWidth="15vw" style={{paddingTop: '3vh'}}>
 	        <Card size="4">
@@ -89,7 +89,7 @@ export default function HomeBottom() {
 	        <Card  size="4">
             <Inset   side="top" pb="current">
               <img
-                src="/images/Screenshot 2025-09-23 205726.png"
+                src="/images/cr-site-player-stats.png"
                 alt="Bold typography"
                 style={{
                   display: "block",

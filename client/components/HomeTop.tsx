@@ -2,13 +2,13 @@ import HomeBottom from "./HomeBottom"
 
 export default function Home() {
     const links = [
-    { name: 'Personal Projects', href: '#personal-anchor' },
-    { name: 'Group Projects', href: '#group-anchor' },
+    { name: 'Personal Projects', href: '#personal' },
+    { name: 'Group Projects', href: '#group' },
     { name: 'My values', href: '#' },
   ]
 
   const stats = [
-    { name: 'Hours Experience', value: '800' },
+    { name: 'Hours Experience', value: '800+' },
     { name: 'Programming Languages', value: '4' },
     { name: 'Libraries and Frameworks', value: '5+' },
     { name: 'Projects Included', value: '3' },
@@ -49,7 +49,7 @@ export default function Home() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 style={{width: ' fit-content'}} className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Abe Calder</h2>
           <p className="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8">
-            Kia Ora! I am Abe, a Full Stack web developer located in Wellington, New 
+            Kia Ora! I&apos;m Abe, a Full Stack web developer located in Wellington, New 
             Zealand. I was born, and grew up in Raumati South. I love making 
             web applications, playing video games, and walking the dog. Here are a few of 
             my favourite personal and team projects that I would love to share 
@@ -75,10 +75,10 @@ export default function Home() {
           </dl>
         </div>
         <div className="social-links-wrapper" style={{display: 'flex'}}>
-          <a href="https://github.com/abe-calder" className="text-3xl font-semibold text-white social-link">GitHub</a>
-          <a href="https://www.linkedin.com/in/abe-calder/" className="text-3xl font-semibold text-white social-link">LinkedIn</a>
-          <a href="mailto: abecalder@gmail.com"  className="text-3xl font-semibold text-white social-link">Gmail</a>
-        </div>
+          <a href="https://github.com/abe-calder" className="text-3xl font-semibold text-white social-link" style={{color: 'green'}}>GitHub</a>
+          <a href="https://www.linkedin.com/in/abe-calder/" className="text-3xl font-semibold text-white social-link" style={{color: 'aqua'}}>LinkedIn</a>
+          <a href="mailto: abecalder@gmail.com"  className="text-3xl font-semibold text-white social-link" style={{color: 'green', display: 'flex'}}><p style={{color: 'deepskyblue'}}>G</p><p style={{color: 'orange'}}>m</p><p style={{color: 'red'}}>a</p><p style={{color: 'yellow'}}>i</p>l</a>
+            </div>
       </div>
       
     </div>
