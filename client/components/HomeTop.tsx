@@ -4,14 +4,12 @@ export default function Home() {
     const links = [
     { name: 'Personal Projects', href: '#personal' },
     { name: 'Group Projects', href: '#group' },
-    { name: 'My values', href: '#' },
   ]
 
   const stats = [
     { name: 'Hours Experience', value: '800+' },
     { name: 'Programming Languages', value: '4' },
     { name: 'Libraries and Frameworks', value: '5+' },
-    { name: 'Projects Included', value: '3' },
   ]
   return (
     <>

@@ -22,7 +22,7 @@ export default function HomeBottom() {
           </Box>
         </div>
       <div aria-hidden="true"
-        className="hidden sm:absolute sm:-middle sm:right-2/3 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu" >
+        className="hidden sm:absolute sm:-middle sm:right-[calc(66.66%-4vw)] sm:-z-10 sm:mr-10 sm:block sm:transform-gpu" >
           <Flex direction="column" gap="3">
 	          <Heading id="personal" style={{ borderBottom: '1px solid white', width: 'fit-content', alignSelf: 'center'}} color="sky" size="9">Personal</Heading>
           </Flex>
@@ -51,9 +51,33 @@ export default function HomeBottom() {
             </Text>
           </Card>
         </Box>
+        <Box className="project-box" maxWidth="15vw" style={{paddingTop: '3vh'}}>
+	        <Card  size="4">
+            <Inset   side="top" pb="current">
+              <img
+                src="/images/cr-site-player-stats.png"
+                alt="Bold typography"
+                style={{
+                  display: "block",
+                  objectFit: "cover",
+                  width: "16vw",
+                  height: '15vh',
+                }}
+              />
+            </Inset>
+            <Text as="p" size="3">
+              <Strong>Cr-Site</Strong> This is a web app that I am 
+              in the process of building and 
+              contains in game statistics for a 
+              video game I play, using their api. <br></br>
+              
+              <a style={{color: 'green'}} href="https://github.com/abe-calder/CR-Site"> GitHub Repo</a>
+            </Text>
+          </Card>
+        </Box>
       </div>
       <div aria-hidden="true"
-        className="hidden sm:absolute sm:-middle sm:left-2/3 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu">
+        className="hidden sm:absolute sm:-middle sm:left-[calc(66.66%-4vw)] sm:-z-10 sm:mr-10 sm:block sm:transform-gpu">
           <Flex direction="column" gap="3">
 	          <Heading id="group" style={{borderBottom: '1px solid white', width: 'fit-content', alignSelf: 'center'}} color="sky" size="9">Group</Heading>
           </Flex>
@@ -80,32 +104,6 @@ export default function HomeBottom() {
               Auth0 integrated sign-in/out. <br></br>
               <a style={{color: 'maroon'}} href="https://whats-up-zh1w.onrender.com/">Delopyed Site </a> | 
               <a style={{color: 'green'}} href="https://github.com/hotoke-2025/whats-up"> GitHub Repo</a>
-            </Text>
-          </Card>
-        </Box>
-      </div>
-      <div className="hidden sm:absolute sm:-bottom-10 sm:right-2/3 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu -translate-y-[10vh]">
-      <Box className="project-box" maxWidth="15vw" style={{paddingTop: '3vh'}}>
-	        <Card  size="4">
-            <Inset   side="top" pb="current">
-              <img
-                src="/images/cr-site-player-stats.png"
-                alt="Bold typography"
-                style={{
-                  display: "block",
-                  objectFit: "cover",
-                  width: "16vw",
-                  height: '15vh',
-                }}
-              />
-            </Inset>
-            <Text as="p" size="3">
-              <Strong>Cr-Site</Strong> This is a web app that I am 
-              in the process of building and 
-              contains in game statistics for a 
-              video game I play, using their api. <br></br>
-              
-              <a style={{color: 'green'}} href="https://github.com/abe-calder/CR-Site"> GitHub Repo</a>
             </Text>
           </Card>
         </Box>
