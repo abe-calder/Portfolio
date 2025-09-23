@@ -28,6 +28,7 @@
     ]
   },
   "dependencies": {
+    "@radix-ui/themes": "^3.2.1",
     "cors": "^2.8.5",
     "express": "^4.17.2",
     "superagent": "^10.2.1"
