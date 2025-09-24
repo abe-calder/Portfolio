@@ -1,10 +1,13 @@
 import { Outlet } from 'react-router'
+import "@radix-ui/themes/styles.css";
+import { Theme } from '@radix-ui/themes';
 
 function App() {
   return (
     <div>
-      <h1>App Header</h1>
-      <Outlet />
+      <Theme>
+        <Outlet />
+      </Theme>
     </div>
   )
 }
