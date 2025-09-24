@@ -73,9 +73,9 @@ export default function Home() {
           </dl>
         </div>
         <div className="social-links-wrapper" style={{display: 'flex'}}>
-          <a href="https://github.com/abe-calder" className="text-3xl font-semibold text-white social-link" style={{color: 'green'}}>GitHub</a>
-          <a href="https://www.linkedin.com/in/abe-calder/" className="text-3xl font-semibold text-white social-link" style={{color: 'aqua'}}>LinkedIn</a>
-          <a href="mailto: abecalder@gmail.com"  className="text-3xl font-semibold text-white social-link" style={{color: 'green', display: 'flex'}}><p style={{color: 'deepskyblue'}}>G</p><p style={{color: 'orange'}}>m</p><p style={{color: 'red'}}>a</p><p style={{color: 'yellow'}}>i</p>l</a>
+          <a href="https://github.com/abe-calder" className="text-3xl font-semibold text-white social-link" style={{color: 'green'}}><img src="/images/GitHub-Logo.png"></img></a>
+          <a href="https://www.linkedin.com/in/abe-calder/" className="text-3xl font-semibold text-white social-link" style={{color: 'aqua'}}><img style={{transform: 'translate(0, 1.75vh)'}} src="/images/linkedin-logo-png-transparent.png"></img></a>
+          <a href="mailto: abecalder@gmail.com"  className="text-3xl font-semibold text-white social-link" style={{color: 'green', display: 'flex'}}><img style={{width: '75%'}} src="/images/Gmail_icon_(2020).svg.webp"></img></a>
             </div>
       </div>
       
