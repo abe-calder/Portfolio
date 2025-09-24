@@ -17,7 +17,7 @@
     "test": "vitest",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "format": "prettier -w '**/*.{js,jsx,ts,tsx}'",
-    "render:build": "npm install && npm run build && npm prune --omit=dev",
+    "render:build": "npm install && npm run build && npm prune --omit=dev"
   },
   "keywords": [
     "frontend"
