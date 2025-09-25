@@ -73,10 +73,11 @@ export default function Home() {
           </dl>
         </div>
         <div className="social-links-wrapper" style={{display: 'flex'}}>
-          <a href="https://github.com/abe-calder" className="text-3xl font-semibold text-white social-link" style={{color: 'green'}}><img src="/images/GitHub-Logo.png"></img></a>
-          <a href="https://www.linkedin.com/in/abe-calder/" className="text-3xl font-semibold text-white social-link" style={{color: 'aqua'}}><img style={{transform: 'translate(0, 1.75vh)'}} src="/images/linkedin-logo-png-transparent.png"></img></a>
-          <a href="mailto: abecalder@gmail.com"  className="text-3xl font-semibold text-white social-link" style={{color: 'green', display: 'flex'}}><img style={{width: '75%'}} src="/images/Gmail_icon_(2020).svg.webp"></img></a>
-            </div>
+          <a href="https://github.com/abe-calder" className="text-3xl font-semibold text-white social-link" ><img alt="github-icon" src="/images/GitHub-Logo.png"></img></a>
+          <a href="https://www.linkedin.com/in/abe-calder/" className="text-3xl font-semibold text-white social-link" ><img alt="linkedin-icon" style={{transform: 'translate(0, 1.75vh)'}} src="/images/linkedin-logo-png-transparent.png"></img></a>
+          <a href="mailto: abecalder@gmail.com" className="text-3xl font-semibold text-white social-link" ><img alt="gmail-icon" style={{ width: '75%' }} src="/images/Gmail_icon_(2020).svg.webp"></img></a>
+          <a href="/Abe-Calder-Resume-For-Assessment.pdf" download="Abe-Calder-CV" className="text-3xl font-semibold text-white social-link"><img style={{width: '80%'}} alt="cv-icon" src="/images/cv-icon.webp"></img></a>
+        </div>
       </div>
       
     </div>
