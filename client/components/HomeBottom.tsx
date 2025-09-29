@@ -5,7 +5,7 @@ export default function HomeBottom() {
 
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32" style={{height: '180vh'}}>
+      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32" style={{height: '270vh'}}>
         <img
           alt=""
           src="/images/second-blue-gradient-background.jpg"
@@ -59,6 +59,40 @@ export default function HomeBottom() {
               <a style={{color: 'green'}} href="https://github.com/abe-calder/TODO-fullstack-database"> GitHub Repo</a>
             </Text>
           </Card>
+          </Box>
+          <Box className="project-box" maxWidth="15vw" style={{paddingTop: '3vh'}}>
+	        <Card  size="4">
+            <Inset   side="top" pb="current">
+              <img
+                src="/images/Screenshot 2025-09-29 143825.png"
+                alt="Bold typography"
+                style={{
+                  display: "block",
+                  objectFit: "cover",
+                  width: "16vw",
+                  height: '15vh',
+                }}
+              />
+            </Inset>
+            <Text as="p" size="3">
+                <Strong>CapitaVault</Strong> is a website that I am
+                currently in the process of building.
+                CapitaVault will provide a place to store any assets
+                (Crypto/Stocks), and then have
+                their value displayed back to the
+                user.
+                <br></br>
+                <br></br>
+                This is done using the Polygon API. It is being build with
+                React TypeScript, React router,
+                useQuery, useEffect, Websocket,
+                and many more technologies.
+                
+                <br></br>
+              
+              <a style={{color: 'green'}} href="https://github.com/abe-calder/CapitaVault"> GitHub Repo</a>
+            </Text>
+          </Card>
         </Box>
         <Box className="project-box" maxWidth="15vw" style={{paddingTop: '3vh'}}>
 	        <Card  size="4">
@@ -88,7 +122,7 @@ export default function HomeBottom() {
               <a style={{color: 'green'}} href="https://github.com/abe-calder/CR-Site"> GitHub Repo</a>
             </Text>
           </Card>
-        </Box>
+          </Box>
       </div>
       <div aria-hidden="true"
         className="hidden sm:absolute sm:-middle sm:left-[calc(66.66%-4vw)] sm:-z-10 sm:mr-10 sm:block sm:transform-gpu">
