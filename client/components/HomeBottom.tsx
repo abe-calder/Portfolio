@@ -64,6 +64,35 @@ export default function HomeBottom() {
 	        <Card  size="4">
             <Inset   side="top" pb="current">
               <img
+                src="/images/cr-site-player-stats.png"
+                alt="Bold typography"
+                style={{
+                  display: "block",
+                  objectFit: "cover",
+                  width: "16vw",
+                  height: '15vh',
+                }}
+              />
+            </Inset>
+            <Text as="p" size="3">
+                <Strong>Cr-Site</Strong> This is a web app that I
+                have build to solve a probelm I had where I couldn&apos;t see
+                the in game statistics that I wanted, for a
+                video game I play.
+                Using their offical API, CR-Site was build with React
+                TypeScript, React router, useQuery,
+                useMutation, and many more
+                technologies.
+                <br></br>
+              <a style={{color: 'maroon'}} href="https://cr-site.onrender.com">Delopyed Site </a> | 
+              <a style={{color: 'green'}} href="https://github.com/abe-calder/CR-Site"> GitHub Repo</a>
+            </Text>
+          </Card>
+          </Box>
+          <Box className="project-box" maxWidth="15vw" style={{paddingTop: '3vh'}}>
+	        <Card  size="4">
+            <Inset   side="top" pb="current">
+              <img
                 src="/images/Screenshot 2025-09-29 143825.png"
                 alt="Bold typography"
                 style={{
@@ -89,40 +118,10 @@ export default function HomeBottom() {
                 and many more technologies.
                 
                 <br></br>
-              
               <a style={{color: 'green'}} href="https://github.com/abe-calder/CapitaVault"> GitHub Repo</a>
             </Text>
           </Card>
         </Box>
-        <Box className="project-box" maxWidth="15vw" style={{paddingTop: '3vh'}}>
-	        <Card  size="4">
-            <Inset   side="top" pb="current">
-              <img
-                src="/images/cr-site-player-stats.png"
-                alt="Bold typography"
-                style={{
-                  display: "block",
-                  objectFit: "cover",
-                  width: "16vw",
-                  height: '15vh',
-                }}
-              />
-            </Inset>
-            <Text as="p" size="3">
-              <Strong>Cr-Site</Strong> This is a web app that I am 
-              in the process of building and 
-              contains in game statistics for a 
-                video game I play, using their api.
-                CR-Site was build with React
-                TypeScript, React router, useQuery,
-                useMutation, and many more
-                technologies.
-                <br></br>
-              
-              <a style={{color: 'green'}} href="https://github.com/abe-calder/CR-Site"> GitHub Repo</a>
-            </Text>
-          </Card>
-          </Box>
       </div>
       <div aria-hidden="true"
         className="hidden sm:absolute sm:-middle sm:left-[calc(66.66%-4vw)] sm:-z-10 sm:mr-10 sm:block sm:transform-gpu">
