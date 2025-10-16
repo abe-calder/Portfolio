@@ -30,7 +30,7 @@ export default function HomeBottom() {
 	        <Card  size="4">
             <Inset   side="top" pb="current">
               <img
-                src="/images/Screenshot 2025-09-29 143825.png"
+                src="/images/Screenshot 2025-10-16 155017.png"
                 alt="Bold typography"
                 style={{
                   display: "block",
